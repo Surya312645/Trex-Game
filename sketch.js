@@ -53,7 +53,7 @@ restart.scale = 0.5;
 restart.addImage("restart",restart_image);
 }
 function draw() {
-  background(0);
+  background(255);
   if(gameState === PLAY){
     gameOver.visible = false;
     restart.visible = false;
